@@ -1,0 +1,8 @@
+=== ducklake_metadata ===
+Rows: 4, Columns: ['key', 'value', 'scope', 'scope_id']
+
+       key             value scope  scope_id
+   version               0.4  None      <NA>
+created_by DuckDB 3a3967aa81  None      <NA>
+ data_path           ./data/  None      <NA>
+ encrypted             false  None      <NA>

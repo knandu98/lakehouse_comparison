@@ -1,0 +1,4 @@
+=== ducklake_sort_expression ===
+Rows: 0, Columns: ['sort_id', 'table_id', 'sort_key_index', 'expression', 'dialect', 'sort_direction', 'null_order']
+
+(empty table)

@@ -1,0 +1,4 @@
+=== ducklake_delete_file ===
+Rows: 0, Columns: ['delete_file_id', 'table_id', 'begin_snapshot', 'end_snapshot', 'data_file_id', 'path', 'path_is_relative', 'format', 'delete_count', 'file_size_bytes', 'footer_size', 'encryption_key', 'partial_max']
+
+(empty table)

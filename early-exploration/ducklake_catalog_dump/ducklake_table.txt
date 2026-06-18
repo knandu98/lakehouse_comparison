@@ -1,0 +1,5 @@
+=== ducklake_table ===
+Rows: 1, Columns: ['table_id', 'table_uuid', 'begin_snapshot', 'end_snapshot', 'schema_id', 'table_name', 'path', 'path_is_relative']
+
+ table_id                           table_uuid  begin_snapshot  end_snapshot  schema_id table_name       path  path_is_relative
+        1 019d024f-3245-7e78-ab54-17fc285e94e6               1          <NA>          0  gapminder gapminder/                 1

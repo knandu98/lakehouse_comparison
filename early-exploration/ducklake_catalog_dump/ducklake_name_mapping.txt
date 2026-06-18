@@ -1,0 +1,4 @@
+=== ducklake_name_mapping ===
+Rows: 0, Columns: ['mapping_id', 'column_id', 'source_name', 'target_field_id', 'parent_column', 'is_partition']
+
+(empty table)

@@ -1,0 +1,4 @@
+=== ducklake_partition_info ===
+Rows: 0, Columns: ['partition_id', 'table_id', 'begin_snapshot', 'end_snapshot']
+
+(empty table)

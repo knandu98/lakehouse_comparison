@@ -1,0 +1,5 @@
+=== ducklake_data_file ===
+Rows: 1, Columns: ['data_file_id', 'table_id', 'begin_snapshot', 'end_snapshot', 'file_order', 'path', 'path_is_relative', 'file_format', 'record_count', 'file_size_bytes', 'footer_size', 'row_id_start', 'partition_id', 'encryption_key', 'mapping_id', 'partial_max']
+
+ data_file_id  table_id  begin_snapshot  end_snapshot  file_order                                                  path  path_is_relative file_format  record_count  file_size_bytes  footer_size  row_id_start  partition_id encryption_key  mapping_id  partial_max
+            0         1               2          <NA>        <NA> ducklake-019d024f-3298-7f44-b3dc-677d1512af88.parquet                 1     parquet          1704            36170          710             0          <NA>           None        <NA>         <NA>

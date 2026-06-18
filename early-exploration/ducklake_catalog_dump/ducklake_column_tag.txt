@@ -1,0 +1,4 @@
+=== ducklake_column_tag ===
+Rows: 0, Columns: ['table_id', 'column_id', 'begin_snapshot', 'end_snapshot', 'key', 'value']
+
+(empty table)

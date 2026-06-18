@@ -1,0 +1,4 @@
+=== ducklake_macro_impl ===
+Rows: 0, Columns: ['macro_id', 'impl_id', 'dialect', 'sql', 'type']
+
+(empty table)

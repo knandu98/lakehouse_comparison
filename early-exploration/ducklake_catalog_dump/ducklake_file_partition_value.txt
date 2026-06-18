@@ -1,0 +1,4 @@
+=== ducklake_file_partition_value ===
+Rows: 0, Columns: ['data_file_id', 'table_id', 'partition_key_index', 'partition_value']
+
+(empty table)

@@ -1,0 +1,5 @@
+=== ducklake_inlined_data_tables ===
+Rows: 1, Columns: ['table_id', 'table_name', 'schema_version']
+
+ table_id                table_name  schema_version
+        1 ducklake_inlined_data_1_1               1

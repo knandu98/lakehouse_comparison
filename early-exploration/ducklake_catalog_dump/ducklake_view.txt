@@ -1,0 +1,4 @@
+=== ducklake_view ===
+Rows: 0, Columns: ['view_id', 'view_uuid', 'begin_snapshot', 'end_snapshot', 'schema_id', 'view_name', 'dialect', 'sql', 'column_aliases']
+
+(empty table)

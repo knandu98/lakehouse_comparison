@@ -1,0 +1,10 @@
+=== ducklake_column ===
+Rows: 6, Columns: ['column_id', 'begin_snapshot', 'end_snapshot', 'table_id', 'column_order', 'column_name', 'column_type', 'initial_default', 'default_value', 'nulls_allowed', 'parent_column', 'default_value_type', 'default_value_dialect']
+
+ column_id  begin_snapshot  end_snapshot  table_id  column_order column_name column_type initial_default default_value  nulls_allowed  parent_column default_value_type default_value_dialect
+         1               1          <NA>         1             1     country     varchar            None          NULL              1           <NA>            literal                duckdb
+         2               1          <NA>         1             2   continent     varchar            None          NULL              1           <NA>            literal                duckdb
+         3               1          <NA>         1             3        year       int32            None          NULL              1           <NA>            literal                duckdb
+         4               1          <NA>         1             4     lifeExp     float64            None          NULL              1           <NA>            literal                duckdb
+         5               1          <NA>         1             5         pop     float64            None          NULL              1           <NA>            literal                duckdb
+         6               1          <NA>         1             6   gdpPercap     float64            None          NULL              1           <NA>            literal                duckdb

@@ -1,0 +1,5 @@
+=== ducklake_schema ===
+Rows: 1, Columns: ['schema_id', 'schema_uuid', 'begin_snapshot', 'end_snapshot', 'schema_name', 'path', 'path_is_relative']
+
+ schema_id                          schema_uuid  begin_snapshot  end_snapshot schema_name  path  path_is_relative
+         0 b9daae66-972e-43c6-a6d4-ba380b6b186e               0          <NA>        main main/                 1

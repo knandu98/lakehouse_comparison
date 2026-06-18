@@ -1,0 +1,4 @@
+=== ducklake_macro_parameters ===
+Rows: 0, Columns: ['macro_id', 'impl_id', 'column_id', 'parameter_name', 'parameter_type', 'default_value', 'default_value_type']
+
+(empty table)

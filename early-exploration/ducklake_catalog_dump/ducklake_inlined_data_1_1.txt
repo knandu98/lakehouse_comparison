@@ -1,0 +1,4 @@
+=== ducklake_inlined_data_1_1 ===
+Rows: 0, Columns: ['row_id', 'begin_snapshot', 'end_snapshot', 'country', 'continent', 'year', 'lifeExp', 'pop', 'gdpPercap']
+
+(empty table)

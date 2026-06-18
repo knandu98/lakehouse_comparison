@@ -1,0 +1,4 @@
+=== ducklake_files_scheduled_for_deletion ===
+Rows: 0, Columns: ['data_file_id', 'path', 'path_is_relative', 'schedule_start']
+
+(empty table)

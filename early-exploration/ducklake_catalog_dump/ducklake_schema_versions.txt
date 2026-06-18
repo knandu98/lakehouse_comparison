@@ -1,0 +1,5 @@
+=== ducklake_schema_versions ===
+Rows: 1, Columns: ['begin_snapshot', 'schema_version', 'table_id']
+
+ begin_snapshot  schema_version  table_id
+              1               1         1

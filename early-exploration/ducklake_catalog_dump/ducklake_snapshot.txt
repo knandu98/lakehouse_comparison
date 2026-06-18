@@ -1,0 +1,7 @@
+=== ducklake_snapshot ===
+Rows: 3, Columns: ['snapshot_id', 'snapshot_time', 'schema_version', 'next_catalog_id', 'next_file_id']
+
+ snapshot_id                 snapshot_time  schema_version  next_catalog_id  next_file_id
+           0 2026-03-18 18:57:17.590741+00               0                1             0
+           1 2026-03-18 18:57:17.891608+00               1                2             0
+           2 2026-03-18 18:57:17.950916+00               1                2             1

@@ -1,0 +1,4 @@
+=== ducklake_column_mapping ===
+Rows: 0, Columns: ['mapping_id', 'table_id', 'type']
+
+(empty table)

@@ -1,0 +1,4 @@
+=== ducklake_file_variant_stats ===
+Rows: 0, Columns: ['data_file_id', 'table_id', 'column_id', 'variant_path', 'shredded_type', 'column_size_bytes', 'value_count', 'null_count', 'min_value', 'max_value', 'contains_nan', 'extra_stats']
+
+(empty table)

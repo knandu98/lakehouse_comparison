@@ -1,0 +1,5 @@
+=== ducklake_table_stats ===
+Rows: 1, Columns: ['table_id', 'record_count', 'next_row_id', 'file_size_bytes']
+
+ table_id  record_count  next_row_id  file_size_bytes
+        1          1704         1704            36170

@@ -1,0 +1,7 @@
+=== ducklake_snapshot_changes ===
+Rows: 3, Columns: ['snapshot_id', 'changes_made', 'author', 'commit_message', 'commit_extra_info']
+
+ snapshot_id                     changes_made author commit_message commit_extra_info
+           0            created_schema:"main"   None           None              None
+           1 created_table:"main"."gapminder"   None           None              None
+           2            inserted_into_table:1   None           None              None
