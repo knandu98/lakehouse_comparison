@@ -14,29 +14,37 @@ import pandas as pd
 print("🚀 Setting up DuckLake...")
 con = duckdb.connect()
 con.execute("INSTALL ducklake; LOAD ducklake;")
+# FIXED: Add DATA_PATH
 con.execute("ATTACH 'ducklake:sqlite:./gapminder_ducklake.sqlite' AS gapminder (DATA_PATH './data/');")
+
+# Create gapminder table only if it doesn't already exist
 con.execute("USE gapminder;")
+table_exists = con.sql("SELECT count(*) FROM information_schema.tables WHERE table_name = 'gapminder';").fetchone()[0] > 0
 
-con.execute("""
-    CREATE TABLE gapminder (
-        country VARCHAR,
-        continent VARCHAR,
-        year INTEGER,
-        lifeExp DOUBLE,
-        pop DOUBLE,
-        gdpPercap DOUBLE
-    );
-""")
+if not table_exists:
+    con.execute("""
+        CREATE TABLE gapminder (
+            country VARCHAR,
+            continent VARCHAR,
+            year INTEGER,
+            lifeExp DOUBLE,
+            pop DOUBLE,
+            gdpPercap DOUBLE
+        );
+    """)
 
-# Load Gapminder data (exact same as Dash tutorial)
-print("📊 Loading Gapminder data...")
-gapminder_url = 'https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv'
-df = pd.read_csv(gapminder_url)
+    # Load Gapminder data (exact same as Dash tutorial)
+    print("📊 Loading Gapminder data...")
+    gapminder_url = 'https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv'
+    df = pd.read_csv(gapminder_url)
 
-con.execute("""
-    INSERT INTO gapminder (country, continent, year, lifeExp, pop, gdpPercap)
-    SELECT country, continent, year, lifeExp, pop, gdpPercap FROM df;
-""")
+    con.execute("""
+        INSERT INTO gapminder (country, continent, year, lifeExp, pop, gdpPercap)
+        SELECT country, continent, year, lifeExp, pop, gdpPercap FROM df;
+    """)
+else:
+    print("📊 Table already exists, skipping data load.")
+
 
 print(f"✅ DuckLake ready! {con.sql('SELECT count(*) FROM gapminder.gapminder;').fetchone()[0]} rows loaded")
 print("Files:", con.sql("SELECT path FROM __ducklake_metadata_gapminder.ducklake_data_file;").fetchdf())
