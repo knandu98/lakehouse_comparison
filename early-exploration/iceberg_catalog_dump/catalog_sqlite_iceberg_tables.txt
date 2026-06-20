@@ -1,0 +1,4 @@
+=== SQLite Catalog Table: iceberg_tables ===
+Rows: 1, Columns: ['catalog_name', 'table_namespace', 'table_name', 'metadata_location', 'previous_metadata_location']
+
+catalog_name=gapminder_iceberg  table_namespace=main  table_name=gapminder  metadata_location=./iceberg_data/main/gapminder/metadata/00001-da644ebd-808b-49c8-81ed-beb107454438.metadata.json  previous_metadata_location=./iceberg_data/main/gapminder/metadata/00000-8463534a-9464-4fc1-9a1f-26673ed1ce1d.metadata.json

@@ -1,0 +1,78 @@
+=== Iceberg Metadata: 00000-8463534a-9464-4fc1-9a1f-26673ed1ce1d.metadata.json ===
+
+{
+  "location": "./iceberg_data/main/gapminder",
+  "table-uuid": "d918f8b9-40bd-4815-8bae-794e95a1b884",
+  "last-updated-ms": 1773868194918,
+  "last-column-id": 6,
+  "schemas": [
+    {
+      "type": "struct",
+      "fields": [
+        {
+          "id": 1,
+          "name": "country",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": 2,
+          "name": "continent",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": 3,
+          "name": "year",
+          "type": "int",
+          "required": false
+        },
+        {
+          "id": 4,
+          "name": "lifeExp",
+          "type": "double",
+          "required": false
+        },
+        {
+          "id": 5,
+          "name": "pop",
+          "type": "double",
+          "required": false
+        },
+        {
+          "id": 6,
+          "name": "gdpPercap",
+          "type": "double",
+          "required": false
+        }
+      ],
+      "schema-id": 0,
+      "identifier-field-ids": []
+    }
+  ],
+  "current-schema-id": 0,
+  "partition-specs": [
+    {
+      "spec-id": 0,
+      "fields": []
+    }
+  ],
+  "default-spec-id": 0,
+  "last-partition-id": 999,
+  "properties": {},
+  "snapshots": [],
+  "snapshot-log": [],
+  "metadata-log": [],
+  "sort-orders": [
+    {
+      "order-id": 0,
+      "fields": []
+    }
+  ],
+  "default-sort-order-id": 0,
+  "refs": {},
+  "statistics": [],
+  "partition-statistics": [],
+  "format-version": 2,
+  "last-sequence-number": 0
+}

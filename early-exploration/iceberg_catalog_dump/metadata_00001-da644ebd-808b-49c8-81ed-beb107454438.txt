@@ -1,0 +1,114 @@
+=== Iceberg Metadata: 00001-da644ebd-808b-49c8-81ed-beb107454438.metadata.json ===
+
+{
+  "location": "./iceberg_data/main/gapminder",
+  "table-uuid": "d918f8b9-40bd-4815-8bae-794e95a1b884",
+  "last-updated-ms": 1773868195125,
+  "last-column-id": 6,
+  "schemas": [
+    {
+      "type": "struct",
+      "fields": [
+        {
+          "id": 1,
+          "name": "country",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": 2,
+          "name": "continent",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": 3,
+          "name": "year",
+          "type": "int",
+          "required": false
+        },
+        {
+          "id": 4,
+          "name": "lifeExp",
+          "type": "double",
+          "required": false
+        },
+        {
+          "id": 5,
+          "name": "pop",
+          "type": "double",
+          "required": false
+        },
+        {
+          "id": 6,
+          "name": "gdpPercap",
+          "type": "double",
+          "required": false
+        }
+      ],
+      "schema-id": 0,
+      "identifier-field-ids": []
+    }
+  ],
+  "current-schema-id": 0,
+  "partition-specs": [
+    {
+      "spec-id": 0,
+      "fields": []
+    }
+  ],
+  "default-spec-id": 0,
+  "last-partition-id": 999,
+  "properties": {},
+  "current-snapshot-id": 6299507837998660455,
+  "snapshots": [
+    {
+      "snapshot-id": 6299507837998660455,
+      "sequence-number": 1,
+      "timestamp-ms": 1773868195125,
+      "manifest-list": "./iceberg_data/main/gapminder/metadata/snap-6299507837998660455-0-20328647-303d-4194-b347-7b9816139a1e.avro",
+      "summary": {
+        "operation": "append",
+        "added-files-size": "36617",
+        "added-data-files": "1",
+        "added-records": "1704",
+        "total-data-files": "1",
+        "total-delete-files": "0",
+        "total-records": "1704",
+        "total-files-size": "36617",
+        "total-position-deletes": "0",
+        "total-equality-deletes": "0"
+      },
+      "schema-id": 0
+    }
+  ],
+  "snapshot-log": [
+    {
+      "snapshot-id": 6299507837998660455,
+      "timestamp-ms": 1773868195125
+    }
+  ],
+  "metadata-log": [
+    {
+      "metadata-file": "./iceberg_data/main/gapminder/metadata/00000-8463534a-9464-4fc1-9a1f-26673ed1ce1d.metadata.json",
+      "timestamp-ms": 1773868194918
+    }
+  ],
+  "sort-orders": [
+    {
+      "order-id": 0,
+      "fields": []
+    }
+  ],
+  "default-sort-order-id": 0,
+  "refs": {
+    "main": {
+      "snapshot-id": 6299507837998660455,
+      "type": "branch"
+    }
+  },
+  "statistics": [],
+  "partition-statistics": [],
+  "format-version": 2,
+  "last-sequence-number": 1
+}

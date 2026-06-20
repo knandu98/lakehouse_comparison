@@ -1,0 +1,4 @@
+=== SQLite Catalog Table: iceberg_namespace_properties ===
+Rows: 1, Columns: ['catalog_name', 'namespace', 'property_key', 'property_value']
+
+catalog_name=gapminder_iceberg  namespace=main  property_key=exists  property_value=true

@@ -1,0 +1,7 @@
+=== Partition Specs ===
+  spec_id: 0, fields: ()
+
+=== Sort Orders ===
+  order_id: 0, fields: []
+
+=== Properties ===

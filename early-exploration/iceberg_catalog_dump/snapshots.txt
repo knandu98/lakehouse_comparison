@@ -1,0 +1,7 @@
+=== Iceberg Snapshots ===
+
+snapshot_id: 6299507837998660455
+  timestamp_ms: 1773868195125
+  manifest_list: ./iceberg_data/main/gapminder/metadata/snap-6299507837998660455-0-20328647-303d-4194-b347-7b9816139a1e.avro
+  summary: operation=Operation.APPEND
+

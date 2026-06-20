@@ -1,0 +1,10 @@
+=== Iceberg Schema ===
+
+schema_id: 0
+  1: country (string) nullable=True
+  2: continent (string) nullable=True
+  3: year (int) nullable=True
+  4: lifeExp (double) nullable=True
+  5: pop (double) nullable=True
+  6: gdpPercap (double) nullable=True
+

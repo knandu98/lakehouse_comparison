@@ -1,0 +1,12 @@
+=== Iceberg Manifest Entries (Data Files) ===
+
+file_path: ./iceberg_data/main/gapminder/data/00000-0-20328647-303d-4194-b347-7b9816139a1e.parquet
+  file_format: FileFormat.PARQUET
+  record_count: 1704
+  file_size_in_bytes: 36617
+  column_sizes: <pyiceberg.utils.lazydict.LazyDict object at 0x7f1ba638e6b0>
+  value_counts: <pyiceberg.utils.lazydict.LazyDict object at 0x7f1ba755fca0>
+  null_value_counts: <pyiceberg.utils.lazydict.LazyDict object at 0x7f1b66036020>
+  lower_bounds: {1: b'Afghanistan', 2: b'Africa', 3: b'\xa0\x07\x00\x00', 4: b'\xd3Mb\x10X\x997@', 5: b'\x00\x00\x00\x00`M\xed@', 6: b'\x99\xd5;\xdcN%n@'}
+  upper_bounds: {1: b'Zimbabwe', 2: b'Oceania', 3: b'\xd7\x07\x00\x00', 4: b';\xdfO\x8d\x97\xa6T@', 5: b'\x00\x00\x00v`\xa6\xd3A', 6: b'\x1a\xc0[ 2\xb7\xfb@'}
+
