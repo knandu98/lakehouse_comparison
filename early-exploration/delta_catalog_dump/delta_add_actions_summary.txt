@@ -1,0 +1,9 @@
+=== Delta Add Actions Summary ===
+commit_file=00000000000000000000.json
+  path=part-00000-4265d9ac-9d86-4652-9e4b-0cd33102aaee-c000.snappy.parquet
+  size=43309
+  modificationTime=1774619782304
+  partitionValues={}
+  dataChange=True
+  stats={"numRecords":1704,"minValues":{"year":1952,"gdpPercap":241.1658765,"continent":"Africa","country":"Afghanistan","pop":60011.0,"lifeExp":23.599},"maxValues":{"year":2007,"pop":1318683096.0,"lifeExp":82.603,"continent":"Oceania","country":"Zimbabwe","gdpPercap":113523.1329},"nullCount":{"continent":0,"country":0,"lifeExp":0,"year":0,"gdpPercap":0,"pop":0}}
+

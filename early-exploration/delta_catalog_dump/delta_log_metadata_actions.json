@@ -1,0 +1,18 @@
+[
+  {
+    "file": "00000000000000000000.json",
+    "metaData": {
+      "id": "6a77f44c-b980-4baf-ae5e-424b5ed6cf10",
+      "name": null,
+      "description": null,
+      "format": {
+        "provider": "parquet",
+        "options": {}
+      },
+      "schemaString": "{\"type\":\"struct\",\"fields\":[{\"name\":\"country\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"year\",\"type\":\"long\",\"nullable\":true,\"metadata\":{}},{\"name\":\"pop\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"continent\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"lifeExp\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"gdpPercap\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}}]}",
+      "partitionColumns": [],
+      "createdTime": 1774619782146,
+      "configuration": {}
+    }
+  }
+]

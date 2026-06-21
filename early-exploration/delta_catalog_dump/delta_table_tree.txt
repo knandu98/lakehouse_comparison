@@ -1,0 +1,5 @@
+=== Delta Table Tree ===
+delta_data/gapminder/
+- _delta_log/
+  - 00000000000000000000.json
+- part-00000-4265d9ac-9d86-4652-9e4b-0cd33102aaee-c000.snappy.parquet

@@ -1,0 +1,9 @@
+=== Delta Log File Index ===
+_delta_log path: /workspaces/ducklake-thesis-test/delta_data/gapminder/_delta_log
+
+JSON commit files:
+  - 00000000000000000000.json
+
+Checkpoint files:
+
+CRC files:

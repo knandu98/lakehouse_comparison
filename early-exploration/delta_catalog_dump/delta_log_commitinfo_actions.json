@@ -1,0 +1,21 @@
+[
+  {
+    "file": "00000000000000000000.json",
+    "commitInfo": {
+      "timestamp": 1774619782304,
+      "operation": "WRITE",
+      "operationParameters": {
+        "mode": "Overwrite"
+      },
+      "engineInfo": "delta-rs:py-1.5.0",
+      "operationMetrics": {
+        "execution_time_ms": 176,
+        "num_added_files": 1,
+        "num_added_rows": 1704,
+        "num_partitions": 0,
+        "num_removed_files": 0
+      },
+      "clientVersion": "delta-rs.py-1.5.0"
+    }
+  }
+]

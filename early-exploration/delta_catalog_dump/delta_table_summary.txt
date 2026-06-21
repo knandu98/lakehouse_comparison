@@ -1,0 +1,11 @@
+=== Delta Table Summary ===
+table_path: /workspaces/ducklake-thesis-test/delta_data/gapminder
+version: 0
+file_uris_count: 1
+file_uris:
+  - /workspaces/ducklake-thesis-test/delta_data/gapminder/part-00000-4265d9ac-9d86-4652-9e4b-0cd33102aaee-c000.snappy.parquet
+row_count: 1704
+schema: {'type': 'struct', 'fields': [{'name': 'country', 'type': 'string', 'nullable': True, 'metadata': {}}, {'name': 'year', 'type': 'long', 'nullable': True, 'metadata': {}}, {'name': 'pop', 'type': 'double', 'nullable': True, 'metadata': {}}, {'name': 'continent', 'type': 'string', 'nullable': True, 'metadata': {}}, {'name': 'lifeExp', 'type': 'double', 'nullable': True, 'metadata': {}}, {'name': 'gdpPercap', 'type': 'double', 'nullable': True, 'metadata': {}}]}
+metadata: Metadata(id: 6a77f44c-b980-4baf-ae5e-424b5ed6cf10, name: None, description: None, partition_columns: [], created_time: 1774619782146, configuration: {})
+protocol: ProtocolVersions(min_reader_version=1, min_writer_version=2, writer_features=None, reader_features=None)
+history: [{'timestamp': 1774619782304, 'operation': 'WRITE', 'operationParameters': {'mode': 'Overwrite'}, 'engineInfo': 'delta-rs:py-1.5.0', 'clientVersion': 'delta-rs.py-1.5.0', 'operationMetrics': {'execution_time_ms': 176, 'num_added_files': 1, 'num_added_rows': 1704, 'num_partitions': 0, 'num_removed_files': 0}, 'version': 0}]

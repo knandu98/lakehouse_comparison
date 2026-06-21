@@ -1,0 +1,9 @@
+[
+  {
+    "file": "00000000000000000000.json",
+    "protocol": {
+      "minReaderVersion": 1,
+      "minWriterVersion": 2
+    }
+  }
+]

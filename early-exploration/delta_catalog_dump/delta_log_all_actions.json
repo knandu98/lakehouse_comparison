@@ -1,0 +1,67 @@
+[
+  {
+    "file": "00000000000000000000.json",
+    "action": {
+      "commitInfo": {
+        "timestamp": 1774619782304,
+        "operation": "WRITE",
+        "operationParameters": {
+          "mode": "Overwrite"
+        },
+        "engineInfo": "delta-rs:py-1.5.0",
+        "operationMetrics": {
+          "execution_time_ms": 176,
+          "num_added_files": 1,
+          "num_added_rows": 1704,
+          "num_partitions": 0,
+          "num_removed_files": 0
+        },
+        "clientVersion": "delta-rs.py-1.5.0"
+      }
+    }
+  },
+  {
+    "file": "00000000000000000000.json",
+    "action": {
+      "protocol": {
+        "minReaderVersion": 1,
+        "minWriterVersion": 2
+      }
+    }
+  },
+  {
+    "file": "00000000000000000000.json",
+    "action": {
+      "metaData": {
+        "id": "6a77f44c-b980-4baf-ae5e-424b5ed6cf10",
+        "name": null,
+        "description": null,
+        "format": {
+          "provider": "parquet",
+          "options": {}
+        },
+        "schemaString": "{\"type\":\"struct\",\"fields\":[{\"name\":\"country\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"year\",\"type\":\"long\",\"nullable\":true,\"metadata\":{}},{\"name\":\"pop\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"continent\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"lifeExp\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}},{\"name\":\"gdpPercap\",\"type\":\"double\",\"nullable\":true,\"metadata\":{}}]}",
+        "partitionColumns": [],
+        "createdTime": 1774619782146,
+        "configuration": {}
+      }
+    }
+  },
+  {
+    "file": "00000000000000000000.json",
+    "action": {
+      "add": {
+        "path": "part-00000-4265d9ac-9d86-4652-9e4b-0cd33102aaee-c000.snappy.parquet",
+        "partitionValues": {},
+        "size": 43309,
+        "modificationTime": 1774619782304,
+        "dataChange": true,
+        "stats": "{\"numRecords\":1704,\"minValues\":{\"year\":1952,\"gdpPercap\":241.1658765,\"continent\":\"Africa\",\"country\":\"Afghanistan\",\"pop\":60011.0,\"lifeExp\":23.599},\"maxValues\":{\"year\":2007,\"pop\":1318683096.0,\"lifeExp\":82.603,\"continent\":\"Oceania\",\"country\":\"Zimbabwe\",\"gdpPercap\":113523.1329},\"nullCount\":{\"continent\":0,\"country\":0,\"lifeExp\":0,\"year\":0,\"gdpPercap\":0,\"pop\":0}}",
+        "tags": null,
+        "baseRowId": null,
+        "defaultRowCommitVersion": null,
+        "clusteringProvider": null
+      }
+    }
+  }
+]
