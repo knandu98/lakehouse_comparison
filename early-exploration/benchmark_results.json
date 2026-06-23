@@ -1,0 +1,48 @@
+{
+  "DuckLake": {
+    "setup_ms": 2443.17,
+    "row_count": 1704,
+    "cold_filter_ms": 53.26,
+    "warm_filter_ms": 30.48,
+    "cold_agg_ms": 10.99,
+    "warm_agg_ms": 6.73,
+    "data_files_before": 1,
+    "metadata_size_before": 0,
+    "append_ms": 12.83,
+    "data_files_after": 2,
+    "metadata_size_after": 0,
+    "total_size_after": 38841,
+    "row_count_after": 1804
+  },
+  "Iceberg": {
+    "setup_ms": 951.22,
+    "row_count": 1704,
+    "cold_filter_ms": 7.14,
+    "warm_filter_ms": 3.8,
+    "cold_agg_ms": 7.32,
+    "warm_agg_ms": 3.65,
+    "data_files_before": 1,
+    "metadata_size_before": 9046,
+    "append_ms": 17.23,
+    "data_files_after": 2,
+    "metadata_size_after": 17952,
+    "total_size_after": 57926,
+    "row_count_after": 1804
+  },
+  "Delta": {
+    "setup_ms": 4538.69,
+    "query_engine": "duckdb_delta_scan",
+    "row_count": 1704,
+    "cold_filter_ms": 4.53,
+    "warm_filter_ms": 3.17,
+    "cold_agg_ms": 4.68,
+    "warm_agg_ms": 2.76,
+    "data_files_before": 1,
+    "metadata_size_before": 1751,
+    "append_ms": 21.9,
+    "data_files_after": 2,
+    "metadata_size_after": 2736,
+    "total_size_after": 49911,
+    "row_count_after": 1804
+  }
+}
